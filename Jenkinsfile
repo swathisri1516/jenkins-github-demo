@@ -17,7 +17,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Build stage started'
-                sh 'echo "Now Application build successful"'
+                sh 'echo "Application build succeeded"'
             }
         }
 
